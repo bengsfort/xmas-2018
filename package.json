@@ -1,0 +1,25 @@
+{
+  "name": "xmas-2018",
+  "version": "0.1.0",
+  "description": "It's a holly jolly XR christmas",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bengsfort/xmas-2018.git"
+  },
+  "keywords": [
+    "WebXR",
+    "three.js",
+    "three.xr.js",
+    "experimental"
+  ],
+  "author": "Matt Bengston <bengsfort@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengsfort/xmas-2018/issues"
+  },
+  "homepage": "https://github.com/bengsfort/xmas-2018#readme"
+}
