@@ -7,26 +7,25 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div id="intro">
-    <h1>Hyvää Joulua</h1>
+    <h1 class="intro-title">Hyvää Joulua</h1>
 
-    <button>Enable AR</button>
+    <button class="intro-start" id="start">Enable AR</button>
 
-    <p>Made with <span class="heart">&#x2764;</span> by <a href="https://twitter.com/bengsfort" target="_blank">Bengsfort</a> in Helsinki, Finland.</p>
+    <p class="credits">Made with <span class="heart">&#x2764;</span> by <a href="https://twitter.com/bengsfort" target="_blank">Bengsfort</a> in Helsinki, Finland.</p>
   </div>
 
-  <script src="js/stats.min.js"></script>
-  <script src="js/three.min.js"></script>
-  <script src="js/three.xr.js"></script>
+  <script src="js/third_party/stats.min.js"></script>
+  <script src="js/third_party/three.min.js"></script>
+  <script src="js/third_party/three.xr.js"></script>
+  <script src="js/third_party/GLTFLoader.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
