@@ -4,6 +4,7 @@
   "description": "It's a holly jolly XR christmas",
   "main": "index.html",
   "scripts": {
+    "start": "python -m SimpleHTTPServer 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
